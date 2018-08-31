@@ -1,15 +1,66 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<title>iosApp下载</title>
+		<title> 时时贷苹果手机APP下载</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../../css/style.css" />
+		<script src="../../js/mui.min.js"></script>
+		<link rel="stylesheet" href="../../css/h5.css" />
+		<style type="text/css">
+			body{ background: #ffedec;}
+.download-root{position:fixed;bottom:0;width:100%;margin:0 auto;z-index:700;height:80px}
+.download-bg{position:absolute;z-index:9;background-color:#000;opacity:.74;height:80px;left:0;right:0;bottom:0}
+.download-inner{z-index:10;position:absolute;padding:10px 20px;color:#FFF;display:flex;align-items:center;width:100%;justify-content:space-between}
+.download-inner .txt{display:flex;align-items:center}
+.download-inner .logo{margin-right:15px}
+.download-inner .btn-download{float:right}
+#shareit{-webkit-user-select:none;display:none;position:absolute;width:100%;height:100%;background:rgba(0,0,0,.5);text-align:center;top:0;left:0;z-index:105}
+#shareit img{max-width:100%}
+		</style>
+	 
 	</head>
-	<body>
+
+	<body  >
+		<div class=" con-val-h5">
+			<img src="../../img/h5-iso-bg1.jpg" / width="100%">
+			<img src="../../img/h5-iso-bg2.jpg" / width="100%">
+			<img src="../../img/h5-iso-bg3.jpg" / width="100%">
+			<img src="../../img/h5-iso-bg4.jpg" / width="100%">
+			<img src="../../img/h5-iso-bg5.jpg" / width="100%">
+
+		</div>
+
+		<div class="download-root">
+			<div class="download-bg"></div>
+			<div class="download">
+				<div class="download-inner">
+
+					<div class="txt">
+						<div class="logo"> <img src="../../img/logo.png" width="55" /></div>
+						<div class="intro">
+							<p class="title">下载时时贷客户端</p>
+							<p class="desc">享受更快捷的借还款服务</p>
+						</div>
+					</div>
+
+					<div class="btn-download"> <a href="itms-services:///?action=download-manifest&url=https://swt.ihzsr.cn/wxdiosdown2/iosApp.plist" 
+						class="mui-btn mui-btn-org" id="share_btn">立即下载</a> </div>
+
+				</div>
+			</div>
+
+		</div>
 		
-			<a href="itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/swt1998/apptest/master/iosApp.plist">
-				<p>下载链接</p></a>
-				<a href="http://baidu.com">111<img src="http://image.so.com/z?ch=beauty&t1=595&src=banner_beauty&eid=t019d923e0dd56b3cc7.jpg"></a>
+		<div id="shareit">
+			<img src='../../img/share.png'>
+		</div>
+		
+		<script src="../../js/jquery.min.js"></script>
+	 
+
 	</body>
-		<h1>IOS下载</h1>
+
 </html>
